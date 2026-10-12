@@ -1,0 +1,379 @@
+{
+  "people": [
+    [
+      "p01",
+      "Mike",
+      25,
+      "student"
+    ],
+    [
+      "p02",
+      "Anna",
+      24,
+      "student"
+    ],
+    [
+      "p03",
+      "Alex",
+      22,
+      "student"
+    ],
+    [
+      "p04",
+      "Ирина",
+      23,
+      "student"
+    ],
+    [
+      "p05",
+      "Павел",
+      21,
+      "student"
+    ],
+    [
+      "p06",
+      "Мария",
+      24,
+      "student"
+    ],
+    [
+      "p07",
+      "Олег",
+      35,
+      "teacher"
+    ],
+    [
+      "p08",
+      "Елена",
+      32,
+      "teacher"
+    ],
+    [
+      "p09",
+      "Дмитрий",
+      29,
+      "graduate"
+    ],
+    [
+      "p10",
+      "София",
+      27,
+      "graduate"
+    ]
+  ],
+  "edges": [
+    [
+      "p01",
+      "p02",
+      "FRIENDS",
+      {
+        "since": "2024-09-01",
+        "strength": 3
+      }
+    ],
+    [
+      "p01",
+      "p03",
+      "FRIENDS",
+      {
+        "since": "2024-09-01",
+        "strength": 3
+      }
+    ],
+    [
+      "p02",
+      "p04",
+      "FRIENDS",
+      {
+        "since": "2024-09-01",
+        "strength": 3
+      }
+    ],
+    [
+      "p03",
+      "p04",
+      "FRIENDS",
+      {
+        "since": "2024-09-01",
+        "strength": 3
+      }
+    ],
+    [
+      "p03",
+      "p05",
+      "FRIENDS",
+      {
+        "since": "2024-09-01",
+        "strength": 3
+      }
+    ],
+    [
+      "p04",
+      "p06",
+      "FRIENDS",
+      {
+        "since": "2024-09-01",
+        "strength": 3
+      }
+    ],
+    [
+      "p05",
+      "p06",
+      "FRIENDS",
+      {
+        "since": "2024-09-01",
+        "strength": 3
+      }
+    ],
+    [
+      "p05",
+      "p09",
+      "FRIENDS",
+      {
+        "since": "2024-09-01",
+        "strength": 3
+      }
+    ],
+    [
+      "p06",
+      "p10",
+      "FRIENDS",
+      {
+        "since": "2024-09-01",
+        "strength": 3
+      }
+    ],
+    [
+      "p07",
+      "p08",
+      "FRIENDS",
+      {
+        "since": "2024-09-01",
+        "strength": 3
+      }
+    ],
+    [
+      "p07",
+      "p09",
+      "FRIENDS",
+      {
+        "since": "2024-09-01",
+        "strength": 3
+      }
+    ],
+    [
+      "p08",
+      "p10",
+      "FRIENDS",
+      {
+        "since": "2024-09-01",
+        "strength": 3
+      }
+    ],
+    [
+      "p01",
+      "g01",
+      "MEMBER_OF",
+      {
+        "since": "2025-09-01",
+        "role": "student"
+      }
+    ],
+    [
+      "p01",
+      "m02",
+      "FAVORITE",
+      {
+        "rating": 5
+      }
+    ],
+    [
+      "p02",
+      "g01",
+      "MEMBER_OF",
+      {
+        "since": "2025-09-01",
+        "role": "student"
+      }
+    ],
+    [
+      "p02",
+      "m01",
+      "FAVORITE",
+      {
+        "rating": 5
+      }
+    ],
+    [
+      "p03",
+      "g01",
+      "MEMBER_OF",
+      {
+        "since": "2025-09-01",
+        "role": "student"
+      }
+    ],
+    [
+      "p03",
+      "m02",
+      "FAVORITE",
+      {
+        "rating": 5
+      }
+    ],
+    [
+      "p04",
+      "g01",
+      "MEMBER_OF",
+      {
+        "since": "2025-09-01",
+        "role": "student"
+      }
+    ],
+    [
+      "p04",
+      "m01",
+      "FAVORITE",
+      {
+        "rating": 5
+      }
+    ],
+    [
+      "p05",
+      "g01",
+      "MEMBER_OF",
+      {
+        "since": "2025-09-01",
+        "role": "student"
+      }
+    ],
+    [
+      "p05",
+      "m02",
+      "FAVORITE",
+      {
+        "rating": 5
+      }
+    ],
+    [
+      "p06",
+      "g01",
+      "MEMBER_OF",
+      {
+        "since": "2025-09-01",
+        "role": "student"
+      }
+    ],
+    [
+      "p06",
+      "m01",
+      "FAVORITE",
+      {
+        "rating": 5
+      }
+    ],
+    [
+      "p07",
+      "g01",
+      "MEMBER_OF",
+      {
+        "since": "2025-09-01",
+        "role": "teacher"
+      }
+    ],
+    [
+      "p07",
+      "m02",
+      "FAVORITE",
+      {
+        "rating": 5
+      }
+    ],
+    [
+      "p08",
+      "g01",
+      "MEMBER_OF",
+      {
+        "since": "2025-09-01",
+        "role": "teacher"
+      }
+    ],
+    [
+      "p08",
+      "m01",
+      "FAVORITE",
+      {
+        "rating": 5
+      }
+    ],
+    [
+      "p09",
+      "g02",
+      "MEMBER_OF",
+      {
+        "since": "2025-09-01",
+        "role": "graduate"
+      }
+    ],
+    [
+      "p09",
+      "m02",
+      "FAVORITE",
+      {
+        "rating": 5
+      }
+    ],
+    [
+      "p10",
+      "g02",
+      "MEMBER_OF",
+      {
+        "since": "2025-09-01",
+        "role": "graduate"
+      }
+    ],
+    [
+      "p10",
+      "m01",
+      "FAVORITE",
+      {
+        "rating": 5
+      }
+    ],
+    [
+      "p01",
+      "p02",
+      "MARRIED",
+      {
+        "since": "2025-06-15"
+      }
+    ],
+    [
+      "p01",
+      "p07",
+      "KNOWS",
+      {
+        "context": "study",
+        "since": "2026-09-01"
+      }
+    ],
+    [
+      "p02",
+      "p08",
+      "KNOWS",
+      {
+        "context": "study",
+        "since": "2026-09-01"
+      }
+    ],
+    [
+      "p03",
+      "p09",
+      "KNOWS",
+      {
+        "context": "study",
+        "since": "2026-09-01"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,70 @@
+SET
+SET
+TRUNCATE TABLE
+INSERT 0 5
+ load_batch 
+------------
+ 
+(1 row)
+
+ load_batch 
+------------
+ 
+(1 row)
+
+INSERT 0 1
+ load_batch 
+------------
+ 
+(1 row)
+
+ load_batch 
+------------
+ 
+(1 row)
+
+INSERT 0 1
+ load_batch 
+------------
+ 
+(1 row)
+
+ load_batch 
+------------
+ 
+(1 row)
+
+DO
+            result            
+------------------------------
+ ALL DATA VAULT CHECKS PASSED
+(1 row)
+
+       object        | count 
+---------------------+-------
+ hub_student         |     3
+ hub_course          |     1
+ hub_task            |     2
+ link_submission     |     4
+ sat_student_lms     |     3
+ sat_course_lms      |     1
+ sat_task_lms        |     2
+ sat_submission_lms  |     6
+ rejected_submission |     1
+(9 rows)
+
+ student_code | student_name  | group_code | course_code | course_name | task_code |    task_name    |  status   | grade |      submitted_at      
+--------------+---------------+------------+-------------+-------------+-----------+-----------------+-----------+-------+------------------------
+ ST-001       | Иван Петров   | 223-322    | DB          | СУБД        | DB-PR01   | Создание таблиц | submitted |       | 2026-10-01 09:00:00+00
+ ST-001       | Иван Петров   | 223-322    | DB          | СУБД        | DB-PR02   | Запросы SQL     | draft     |       | 
+ ST-002       | Анна Иванова  | 223-322    | DB          | СУБД        | DB-PR01   | Создание таблиц | graded    |     5 | 2026-10-01 08:00:00+00
+ ST-003       | Павел Соколов | 223-322    | DB          | СУБД        | DB-PR02   | Запросы SQL     | draft     |       | 
+(4 rows)
+
+       load_date        |  status   | grade 
+------------------------+-----------+-------
+ 2026-10-01 10:00:00+00 | submitted |      
+ 2026-10-02 10:00:00+00 | graded    |     4
+ 2026-10-03 10:00:00+00 | submitted |      
+(3 rows)
+

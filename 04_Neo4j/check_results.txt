@@ -1,0 +1,76 @@
+id, labels
+"p01", ["LabEntity", "Person"]
+"p02", ["LabEntity", "Person"]
+"p03", ["LabEntity", "Person"]
+"p04", ["LabEntity", "Person"]
+"p05", ["LabEntity", "Person"]
+"p06", ["LabEntity", "Person"]
+"p07", ["LabEntity", "Person"]
+"p08", ["LabEntity", "Person"]
+"p09", ["LabEntity", "Person"]
+"p10", ["LabEntity", "Person"]
+"m01", ["LabEntity", "Movie"]
+"m02", ["LabEntity", "Movie"]
+"g01", ["LabEntity", "Community"]
+"g02", ["LabEntity", "Community"]
+n.id, n.name
+"p03", "Alex"
+n.id, n.name
+"p03", "Alex"
+with_name
+12
+a.name, b.name
+"Mike", "Anna"
+n.name
+"Alex"
+"Anna"
+"Mike"
+"Дмитрий"
+"Елена"
+"Ирина"
+"Мария"
+"Олег"
+"Павел"
+"София"
+a.name
+"Mike"
+"Ирина"
+"Павел"
+node_count, nodes_requirement
+14, TRUE
+edge_count, edges_requirement
+36, TRUE
+relationship_type, total
+"FAVORITE", 10
+"FRIENDS", 12
+"KNOWS", 3
+"MARRIED", 1
+"MEMBER_OF", 10
+isolated
+0
+shortest_path, length
+["Mike", "Alex", "Павел", "Мария", "София"], 4
+path, length
+["Mike", "Anna", "Елена", "София"], 3
+["Mike", "Олег", "Елена", "София"], 3
+reachable
+"Alex"
+"Anna"
+"Ирина"
+"Павел"
+n.id, n.name
+"p10", "София"
+nodes_after_delete
+14
+deletion_demo_remaining
+0
+duplicate_edge_groups
+0
+self_loops
+0
+found_by_internal_id
+"p03"
+x.name, y.name
+"Mike", "Anna"
+application_id, internal_id
+"g02", 13
