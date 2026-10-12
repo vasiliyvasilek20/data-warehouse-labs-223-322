@@ -1,0 +1,183 @@
+Исходная модель сноуборда:
+[
+  {
+    nazvanie: 'Burton Custom'
+  }
+]
+PASS: updateMany выбрал ровно 5 моделей сноубордов
+Сноуборды до удаления:
+[
+  {
+    seriynyy_nomer: 'NAD-SN-101',
+    data_izgotovleniya: ISODate('2025-01-15T00:00:00.000Z'),
+    model: 'Учебный Snow A'
+  },
+  {
+    seriynyy_nomer: 'NAD-SN-102',
+    data_izgotovleniya: ISODate('2025-01-15T00:00:00.000Z'),
+    model: 'Учебный Snow A'
+  },
+  {
+    seriynyy_nomer: 'NAD-SN-103',
+    data_izgotovleniya: ISODate('2025-01-15T00:00:00.000Z'),
+    model: 'Учебный Snow B'
+  },
+  {
+    seriynyy_nomer: 'NAD-SN-104',
+    data_izgotovleniya: ISODate('2025-01-15T00:00:00.000Z'),
+    model: 'Учебный Snow B'
+  },
+  {
+    seriynyy_nomer: 'NAD-SN-105',
+    data_izgotovleniya: ISODate('2024-01-15T00:00:00.000Z'),
+    model: 'Учебный Snow C'
+  },
+  {
+    seriynyy_nomer: 'NAD-SN-106',
+    data_izgotovleniya: ISODate('2024-01-15T00:00:00.000Z'),
+    model: 'Учебный Snow C'
+  },
+  {
+    seriynyy_nomer: 'NAD-SN-107',
+    data_izgotovleniya: ISODate('2025-01-15T00:00:00.000Z'),
+    model: 'Учебный Snow D'
+  },
+  {
+    seriynyy_nomer: 'NAD-SN-108',
+    data_izgotovleniya: ISODate('2025-01-15T00:00:00.000Z'),
+    model: 'Учебный Snow D'
+  },
+  {
+    seriynyy_nomer: 'SN-006',
+    model: 'Burton Custom'
+  }
+]
+PASS: до удаления 5 моделей и 9 физических сноубордов
+PASS: объект удаления действительно относится к сноубордам
+PASS: удаляемый экземпляр не используется в прокате
+PASS: на удаляемый экземпляр нет штрафа
+PASS: deleteOne удалил ровно один сноуборд
+PASS: повторное удаление не затронуло другие записи
+PASS: после удаления 5 моделей и 8 физических сноубордов
+PASS: созданы все 17 коллекций
+PASS: всего 14 моделей инвентаря
+PASS: всего 17 единиц инвентаря
+PASS: model_inventarya.kategoriya_id имеет корректные ссылки на kategoriya
+PASS: model_inventarya.brend_id имеет корректные ссылки на brend
+PASS: edinitsa_inventarya.model_id имеет корректные ссылки на model_inventarya
+PASS: edinitsa_inventarya.status_id имеет корректные ссылки на status_inventarya
+PASS: dokument.klient_id имеет корректные ссылки на klient
+PASS: sotrudnik.dolzhnost_id имеет корректные ссылки на dolzhnost
+PASS: uchet_zapis.sotrudnik_id имеет корректные ссылки на sotrudnik
+PASS: prokat.klient_id имеет корректные ссылки на klient
+PASS: prokat.sotrudnik_id имеет корректные ссылки на sotrudnik
+PASS: prokat.status_id имеет корректные ссылки на status_prokata
+PASS: platezh.prokat_id имеет корректные ссылки на prokat
+PASS: platezh.sposob_id имеет корректные ссылки на sposob_oplaty
+PASS: shtraf.edinitsa_id имеет корректные ссылки на edinitsa_inventarya
+PASS: shtraf.prokat_id имеет корректные ссылки на prokat
+PASS: obsluzhivanie.edinitsa_id имеет корректные ссылки на edinitsa_inventarya
+PASS: obsluzhivanie.sotrudnik_id имеет корректные ссылки на sotrudnik
+PASS: tarif.kategoriya_id имеет корректные ссылки на kategoriya
+PASS: позиция проката 1 имеет экземпляр
+PASS: позиция проката 1 имеет тариф
+PASS: позиция проката 1 имеет экземпляр
+PASS: позиция проката 1 имеет тариф
+PASS: позиция проката 2 имеет экземпляр
+PASS: позиция проката 2 имеет тариф
+PASS: позиция проката 3 имеет экземпляр
+PASS: позиция проката 3 имеет тариф
+PASS: позиция проката 4 имеет экземпляр
+PASS: позиция проката 4 имеет тариф
+PASS: позиция проката 5 имеет экземпляр
+PASS: позиция проката 5 имеет тариф
+PASS: позиция проката 6 имеет экземпляр
+PASS: позиция проката 6 имеет тариф
+PASS: позиция проката 7 имеет экземпляр
+PASS: позиция проката 7 имеет тариф
+PASS: позиция проката 8 имеет экземпляр
+PASS: позиция проката 8 имеет тариф
+PASS: позиция проката 9 имеет экземпляр
+PASS: позиция проката 9 имеет тариф
+PASS: позиция проката 10 имеет экземпляр
+PASS: позиция проката 10 имеет тариф
+ИТОГОВЫЕ КОЛИЧЕСТВА:
+brend: 10
+dokument: 10
+dolzhnost: 10
+edinitsa_inventarya: 17
+kategoriya: 10
+klient: 10
+model_inventarya: 14
+obsluzhivanie: 10
+platezh: 10
+prokat: 10
+shtraf: 10
+sotrudnik: 10
+sposob_oplaty: 10
+status_inventarya: 10
+status_prokata: 10
+tarif: 10
+uchet_zapis: 10
+СНОУБОРДЫ С ДАТОЙ ИЗГОТОВЛЕНИЯ ПОСЛЕ УДАЛЕНИЯ:
+[
+  {
+    seriynyy_nomer: 'NAD-SN-101',
+    data_izgotovleniya: ISODate('2025-01-15T00:00:00.000Z')
+  },
+  {
+    seriynyy_nomer: 'NAD-SN-102',
+    data_izgotovleniya: ISODate('2025-01-15T00:00:00.000Z')
+  },
+  {
+    seriynyy_nomer: 'NAD-SN-103',
+    data_izgotovleniya: ISODate('2025-01-15T00:00:00.000Z')
+  },
+  {
+    seriynyy_nomer: 'NAD-SN-104',
+    data_izgotovleniya: ISODate('2025-01-15T00:00:00.000Z')
+  },
+  {
+    seriynyy_nomer: 'NAD-SN-105',
+    data_izgotovleniya: ISODate('2024-01-15T00:00:00.000Z')
+  },
+  {
+    seriynyy_nomer: 'NAD-SN-106',
+    data_izgotovleniya: ISODate('2024-01-15T00:00:00.000Z')
+  },
+  {
+    seriynyy_nomer: 'NAD-SN-107',
+    data_izgotovleniya: ISODate('2025-01-15T00:00:00.000Z')
+  },
+  {
+    seriynyy_nomer: 'SN-006',
+    data_izgotovleniya: ISODate('2023-01-01T00:00:00.000Z')
+  }
+]
+PASS: дата изготовления SN-006 является Date
+PASS: год изготовления SN-006 совпадает с моделью
+PASS: изготовление SN-006 предшествует покупке
+PASS: дата изготовления NAD-SN-101 является Date
+PASS: год изготовления NAD-SN-101 совпадает с моделью
+PASS: изготовление NAD-SN-101 предшествует покупке
+PASS: дата изготовления NAD-SN-102 является Date
+PASS: год изготовления NAD-SN-102 совпадает с моделью
+PASS: изготовление NAD-SN-102 предшествует покупке
+PASS: дата изготовления NAD-SN-103 является Date
+PASS: год изготовления NAD-SN-103 совпадает с моделью
+PASS: изготовление NAD-SN-103 предшествует покупке
+PASS: дата изготовления NAD-SN-104 является Date
+PASS: год изготовления NAD-SN-104 совпадает с моделью
+PASS: изготовление NAD-SN-104 предшествует покупке
+PASS: дата изготовления NAD-SN-105 является Date
+PASS: год изготовления NAD-SN-105 совпадает с моделью
+PASS: изготовление NAD-SN-105 предшествует покупке
+PASS: дата изготовления NAD-SN-106 является Date
+PASS: год изготовления NAD-SN-106 совпадает с моделью
+PASS: изготовление NAD-SN-106 предшествует покупке
+PASS: дата изготовления NAD-SN-107 является Date
+PASS: год изготовления NAD-SN-107 совпадает с моделью
+PASS: изготовление NAD-SN-107 предшествует покупке
+PASS: индекс отклонил дубликат серийного номера
+PASS: неуспешная вставка не оставила запись
+ALL MONGODB CHECKS PASSED

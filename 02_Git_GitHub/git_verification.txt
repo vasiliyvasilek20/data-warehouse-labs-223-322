@@ -1,0 +1,12 @@
+Проверка 12.10.2026 после загрузки исходников
+Ветка main, видимость Public
+Рабочее дерево после коммита: чистое
+Локальный и удалённый main совпали:
+0d07baccaac7e9974a3610fc5d104a8729887776
+
+История:
+0d07bac Add verified Data Vault and Neo4j labs
+5cbb791 Initial commit
+
+В репозитории доступны SQL, Cypher, протоколы,
+схемы и отчёты Data Vault и Neo4j.
