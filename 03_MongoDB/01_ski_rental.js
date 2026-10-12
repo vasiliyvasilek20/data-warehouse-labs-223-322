@@ -70,30 +70,30 @@ seed("model_inventarya",[
 
 // ========== 4. KLIENT ==========
 seed("klient",[
-  { _id: 1,  imya: "Иван",    familiya: "Петров",   otchestvo: "Сергеевич",  data_rozhdeniya: new Date("1990-05-12"), telefon: "+79001112233", email: "ivan@mail.ru",   adres: "Москва, Ленина 10",        data_registratsii: new Date("2023-11-01") },
-  { _id: 2,  imya: "Анна",    familiya: "Смирнова", otchestvo: "Ивановна",   data_rozhdeniya: new Date("1995-08-22"), telefon: "+79002223344", email: "anna@mail.ru",   adres: "СПб, Невский 25",          data_registratsii: new Date("2023-11-05") },
-  { _id: 3,  imya: "Сергей",  familiya: "Иванов",   otchestvo: "Петрович",   data_rozhdeniya: new Date("1988-03-15"), telefon: "+79003334455", email: "sergey@mail.ru", adres: "Казань, Баумана 7",        data_registratsii: new Date("2023-11-10") },
-  { _id: 4,  imya: "Мария",   familiya: "Козлова",  otchestvo: "Андреевна",  data_rozhdeniya: new Date("1998-12-01"), telefon: "+79004445566", email: "maria@mail.ru",  adres: "Новосибирск, Красный 100", data_registratsii: new Date("2023-12-01") },
-  { _id: 5,  imya: "Дмитрий", familiya: "Орлов",    otchestvo: "Викторович", data_rozhdeniya: new Date("1992-07-19"), telefon: "+79005556677", email: "dmitry@mail.ru", adres: "Екатеринбург, Ленина 24",  data_registratsii: new Date("2024-01-15") },
-  { _id: 6,  imya: "Ольга",   familiya: "Новикова", otchestvo: "Сергеевна",  data_rozhdeniya: new Date("1985-02-28"), telefon: "+79006667788", email: "olga@mail.ru",   adres: "Москва, Тверская 15",      data_registratsii: new Date("2024-02-01") },
-  { _id: 7,  imya: "Павел",   familiya: "Морозов",  otchestvo: "Игоревич",   data_rozhdeniya: new Date("1994-09-09"), telefon: "+79007778899", email: "pavel@mail.ru",  adres: "Сочи, Курортный 33",       data_registratsii: new Date("2024-02-20") },
-  { _id: 8,  imya: "Елена",   familiya: "Волкова",  otchestvo: "Дмитриевна", data_rozhdeniya: new Date("1991-11-11"), telefon: "+79008889900", email: "elena@mail.ru",  adres: "Москва, Арбат 5",          data_registratsii: new Date("2024-03-01") },
-  { _id: 9,  imya: "Артём",   familiya: "Соколов",  otchestvo: "Олегович",   data_rozhdeniya: new Date("1996-04-04"), telefon: "+79009990011", email: "artem@mail.ru",  adres: "Владивосток, Светланская", data_registratsii: new Date("2024-03-10") },
-  { _id: 10, imya: "Ксения",  familiya: "Лебедева", otchestvo: "Павловна",   data_rozhdeniya: new Date("1999-06-30"), telefon: "+79010001122", email: "ksenia@mail.ru", adres: "Краснодар, Красная 155",   data_registratsii: new Date("2024-03-15") }
+  { _id: 1,  imya: "Учебный пользователь 1",    familiya: "Пример",   otchestvo: "",  data_rozhdeniya: new Date("1990-05-12"), telefon: "DEMO-klient-1", email: "klient-1@example.invalid",   adres: "Учебный адрес 1",        data_registratsii: new Date("2023-11-01") },
+  { _id: 2,  imya: "Учебный пользователь 2",    familiya: "Пример", otchestvo: "",   data_rozhdeniya: new Date("1995-08-22"), telefon: "DEMO-klient-2", email: "klient-2@example.invalid",   adres: "Учебный адрес 2",          data_registratsii: new Date("2023-11-05") },
+  { _id: 3,  imya: "Учебный пользователь 3",  familiya: "Пример",   otchestvo: "",   data_rozhdeniya: new Date("1988-03-15"), telefon: "DEMO-klient-3", email: "klient-3@example.invalid", adres: "Учебный адрес 3",        data_registratsii: new Date("2023-11-10") },
+  { _id: 4,  imya: "Учебный пользователь 4",   familiya: "Пример",  otchestvo: "",  data_rozhdeniya: new Date("1998-12-01"), telefon: "DEMO-klient-4", email: "klient-4@example.invalid",  adres: "Учебный адрес 4", data_registratsii: new Date("2023-12-01") },
+  { _id: 5,  imya: "Учебный пользователь 5", familiya: "Пример",    otchestvo: "", data_rozhdeniya: new Date("1992-07-19"), telefon: "DEMO-klient-5", email: "klient-5@example.invalid", adres: "Учебный адрес 5",  data_registratsii: new Date("2024-01-15") },
+  { _id: 6,  imya: "Учебный пользователь 6",   familiya: "Пример", otchestvo: "",  data_rozhdeniya: new Date("1985-02-28"), telefon: "DEMO-klient-6", email: "klient-6@example.invalid",   adres: "Учебный адрес 6",      data_registratsii: new Date("2024-02-01") },
+  { _id: 7,  imya: "Учебный пользователь 7",   familiya: "Пример",  otchestvo: "",   data_rozhdeniya: new Date("1994-09-09"), telefon: "DEMO-klient-7", email: "klient-7@example.invalid",  adres: "Учебный адрес 7",       data_registratsii: new Date("2024-02-20") },
+  { _id: 8,  imya: "Учебный пользователь 8",   familiya: "Пример",  otchestvo: "", data_rozhdeniya: new Date("1991-11-11"), telefon: "DEMO-klient-8", email: "klient-8@example.invalid",  adres: "Учебный адрес 8",          data_registratsii: new Date("2024-03-01") },
+  { _id: 9,  imya: "Учебный пользователь 9",   familiya: "Пример",  otchestvo: "",   data_rozhdeniya: new Date("1996-04-04"), telefon: "DEMO-klient-9", email: "klient-9@example.invalid",  adres: "Учебный адрес 9", data_registratsii: new Date("2024-03-10") },
+  { _id: 10, imya: "Учебный пользователь 10",  familiya: "Пример", otchestvo: "",   data_rozhdeniya: new Date("1999-06-30"), telefon: "DEMO-klient-10", email: "klient-10@example.invalid", adres: "Учебный адрес 10",   data_registratsii: new Date("2024-03-15") }
 ])
 
 // ========== 5. DOKUMENT ==========
 seed("dokument",[
-  { _id: 1,  klient_id: 1,  tip_dokumenta: "Паспорт РФ", seriya: "4509", nomer: "123456", kem_vydan: "ОВД Москвы",        data_vydachi: new Date("2010-06-15") },
-  { _id: 2,  klient_id: 2,  tip_dokumenta: "Паспорт РФ", seriya: "4010", nomer: "234567", kem_vydan: "ОВД СПб",           data_vydachi: new Date("2015-08-22") },
-  { _id: 3,  klient_id: 3,  tip_dokumenta: "Паспорт РФ", seriya: "9201", nomer: "345678", kem_vydan: "ОВД Казани",        data_vydachi: new Date("2008-03-15") },
-  { _id: 4,  klient_id: 4,  tip_dokumenta: "Паспорт РФ", seriya: "5002", nomer: "456789", kem_vydan: "ОВД Новосибирска",  data_vydachi: new Date("2018-12-01") },
-  { _id: 5,  klient_id: 5,  tip_dokumenta: "Паспорт РФ", seriya: "6503", nomer: "567890", kem_vydan: "ОВД Екатеринбурга", data_vydachi: new Date("2012-07-19") },
-  { _id: 6,  klient_id: 6,  tip_dokumenta: "Паспорт РФ", seriya: "4504", nomer: "678901", kem_vydan: "ОВД Москвы",        data_vydachi: new Date("2005-02-28") },
-  { _id: 7,  klient_id: 7,  tip_dokumenta: "Паспорт РФ", seriya: "0305", nomer: "789012", kem_vydan: "ОВД Сочи",          data_vydachi: new Date("2014-09-09") },
-  { _id: 8,  klient_id: 8,  tip_dokumenta: "Паспорт РФ", seriya: "4506", nomer: "890123", kem_vydan: "ОВД Москвы",        data_vydachi: new Date("2011-11-11") },
-  { _id: 9,  klient_id: 9,  tip_dokumenta: "Паспорт РФ", seriya: "0507", nomer: "901234", kem_vydan: "ОВД Владивостока",  data_vydachi: new Date("2016-04-04") },
-  { _id: 10, klient_id: 10, tip_dokumenta: "Паспорт РФ", seriya: "0308", nomer: "012345", kem_vydan: "ОВД Краснодара",    data_vydachi: new Date("2019-06-30") }
+  { _id: 1,  klient_id: 1,  tip_dokumenta: "Паспорт РФ", seriya: "DEMO", nomer: "DEMO-1", kem_vydan: "Учебный пример",        data_vydachi: new Date("2010-06-15") },
+  { _id: 2,  klient_id: 2,  tip_dokumenta: "Паспорт РФ", seriya: "DEMO", nomer: "DEMO-2", kem_vydan: "Учебный пример",           data_vydachi: new Date("2015-08-22") },
+  { _id: 3,  klient_id: 3,  tip_dokumenta: "Паспорт РФ", seriya: "DEMO", nomer: "DEMO-3", kem_vydan: "Учебный пример",        data_vydachi: new Date("2008-03-15") },
+  { _id: 4,  klient_id: 4,  tip_dokumenta: "Паспорт РФ", seriya: "DEMO", nomer: "DEMO-4", kem_vydan: "Учебный пример",  data_vydachi: new Date("2018-12-01") },
+  { _id: 5,  klient_id: 5,  tip_dokumenta: "Паспорт РФ", seriya: "DEMO", nomer: "DEMO-5", kem_vydan: "Учебный пример", data_vydachi: new Date("2012-07-19") },
+  { _id: 6,  klient_id: 6,  tip_dokumenta: "Паспорт РФ", seriya: "DEMO", nomer: "DEMO-6", kem_vydan: "Учебный пример",        data_vydachi: new Date("2005-02-28") },
+  { _id: 7,  klient_id: 7,  tip_dokumenta: "Паспорт РФ", seriya: "DEMO", nomer: "DEMO-7", kem_vydan: "Учебный пример",          data_vydachi: new Date("2014-09-09") },
+  { _id: 8,  klient_id: 8,  tip_dokumenta: "Паспорт РФ", seriya: "DEMO", nomer: "DEMO-8", kem_vydan: "Учебный пример",        data_vydachi: new Date("2011-11-11") },
+  { _id: 9,  klient_id: 9,  tip_dokumenta: "Паспорт РФ", seriya: "DEMO", nomer: "DEMO-9", kem_vydan: "Учебный пример",  data_vydachi: new Date("2016-04-04") },
+  { _id: 10, klient_id: 10, tip_dokumenta: "Паспорт РФ", seriya: "DEMO", nomer: "DEMO-10", kem_vydan: "Учебный пример",    data_vydachi: new Date("2019-06-30") }
 ])
 
 // ========== 6. DOLZHNOST ==========
@@ -112,30 +112,30 @@ seed("dolzhnost",[
 
 // ========== 7. SOTRUDNIK ==========
 seed("sotrudnik",[
-  { _id: 1,  imya: "Алексей",  familiya: "Кузнецов", otchestvo: "Петрович",   telefon: "+79101112233", email: "alex@ski.ru",     data_priema: new Date("2020-01-15"), dolzhnost_id: 1 },
-  { _id: 2,  imya: "Наталья",  familiya: "Попова",   otchestvo: "Ивановна",   telefon: "+79102223344", email: "nataly@ski.ru",   data_priema: new Date("2021-03-10"), dolzhnost_id: 2 },
-  { _id: 3,  imya: "Виктор",   familiya: "Сидоров",  otchestvo: "Алексеевич", telefon: "+79103334455", email: "viktor@ski.ru",   data_priema: new Date("2021-06-20"), dolzhnost_id: 3 },
-  { _id: 4,  imya: "Татьяна",  familiya: "Белова",   otchestvo: "Сергеевна",  telefon: "+79104445566", email: "tatyana@ski.ru",  data_priema: new Date("2022-02-01"), dolzhnost_id: 3 },
-  { _id: 5,  imya: "Михаил",   familiya: "Громов",   otchestvo: "Олегович",   telefon: "+79105556677", email: "mihail@ski.ru",   data_priema: new Date("2022-09-15"), dolzhnost_id: 5 },
-  { _id: 6,  imya: "Ирина",    familiya: "Крылова",  otchestvo: "Викторовна", telefon: "+79106667788", email: "irina@ski.ru",    data_priema: new Date("2023-01-10"), dolzhnost_id: 6 },
-  { _id: 7,  imya: "Андрей",   familiya: "Титов",    otchestvo: "Николаевич", telefon: "+79107778899", email: "andrey@ski.ru",   data_priema: new Date("2023-04-05"), dolzhnost_id: 4 },
-  { _id: 8,  imya: "Светлана", familiya: "Егорова",  otchestvo: "Андреевна",  telefon: "+79108889900", email: "svetlana@ski.ru", data_priema: new Date("2023-07-01"), dolzhnost_id: 8 },
-  { _id: 9,  imya: "Роман",    familiya: "Фомин",    otchestvo: "Дмитриевич", telefon: "+79109990011", email: "roman@ski.ru",    data_priema: new Date("2024-01-20"), dolzhnost_id: 7 },
-  { _id: 10, imya: "Юлия",     familiya: "Зайцева",  otchestvo: "Павловна",   telefon: "+79110001122", email: "yulia@ski.ru",    data_priema: new Date("2024-02-15"), dolzhnost_id: 10 }
+  { _id: 1,  imya: "Учебный пользователь 1",  familiya: "Пример", otchestvo: "",   telefon: "DEMO-sotrudnik-1", email: "sotrudnik-1@example.invalid",     data_priema: new Date("2020-01-15"), dolzhnost_id: 1 },
+  { _id: 2,  imya: "Учебный пользователь 2",  familiya: "Пример",   otchestvo: "",   telefon: "DEMO-sotrudnik-2", email: "sotrudnik-2@example.invalid",   data_priema: new Date("2021-03-10"), dolzhnost_id: 2 },
+  { _id: 3,  imya: "Учебный пользователь 3",   familiya: "Пример",  otchestvo: "", telefon: "DEMO-sotrudnik-3", email: "sotrudnik-3@example.invalid",   data_priema: new Date("2021-06-20"), dolzhnost_id: 3 },
+  { _id: 4,  imya: "Учебный пользователь 4",  familiya: "Пример",   otchestvo: "",  telefon: "DEMO-sotrudnik-4", email: "sotrudnik-4@example.invalid",  data_priema: new Date("2022-02-01"), dolzhnost_id: 3 },
+  { _id: 5,  imya: "Учебный пользователь 5",   familiya: "Пример",   otchestvo: "",   telefon: "DEMO-sotrudnik-5", email: "sotrudnik-5@example.invalid",   data_priema: new Date("2022-09-15"), dolzhnost_id: 5 },
+  { _id: 6,  imya: "Учебный пользователь 6",    familiya: "Пример",  otchestvo: "", telefon: "DEMO-sotrudnik-6", email: "sotrudnik-6@example.invalid",    data_priema: new Date("2023-01-10"), dolzhnost_id: 6 },
+  { _id: 7,  imya: "Учебный пользователь 7",   familiya: "Пример",    otchestvo: "", telefon: "DEMO-sotrudnik-7", email: "sotrudnik-7@example.invalid",   data_priema: new Date("2023-04-05"), dolzhnost_id: 4 },
+  { _id: 8,  imya: "Учебный пользователь 8", familiya: "Пример",  otchestvo: "",  telefon: "DEMO-sotrudnik-8", email: "sotrudnik-8@example.invalid", data_priema: new Date("2023-07-01"), dolzhnost_id: 8 },
+  { _id: 9,  imya: "Учебный пользователь 9",    familiya: "Пример",    otchestvo: "", telefon: "DEMO-sotrudnik-9", email: "sotrudnik-9@example.invalid",    data_priema: new Date("2024-01-20"), dolzhnost_id: 7 },
+  { _id: 10, imya: "Учебный пользователь 10",     familiya: "Пример",  otchestvo: "",   telefon: "DEMO-sotrudnik-10", email: "sotrudnik-10@example.invalid",    data_priema: new Date("2024-02-15"), dolzhnost_id: 10 }
 ])
 
 // ========== 8. UCHET_ZAPIS ==========
 seed("uchet_zapis",[
-  { _id: 1,  sotrudnik_id: 1,  login: "admin",       khesh_parolya: "$2a$10$hash1",  rol: "admin",    aktiven: true  },
-  { _id: 2,  sotrudnik_id: 2,  login: "manager1",    khesh_parolya: "$2a$10$hash2",  rol: "manager",  aktiven: true  },
-  { _id: 3,  sotrudnik_id: 3,  login: "operator1",   khesh_parolya: "$2a$10$hash3",  rol: "operator", aktiven: true  },
-  { _id: 4,  sotrudnik_id: 4,  login: "operator2",   khesh_parolya: "$2a$10$hash4",  rol: "operator", aktiven: true  },
-  { _id: 5,  sotrudnik_id: 5,  login: "tehnik1",     khesh_parolya: "$2a$10$hash5",  rol: "operator", aktiven: true  },
-  { _id: 6,  sotrudnik_id: 6,  login: "instruktor1", khesh_parolya: "$2a$10$hash6",  rol: "operator", aktiven: true  },
-  { _id: 7,  sotrudnik_id: 7,  login: "sklad1",      khesh_parolya: "$2a$10$hash7",  rol: "operator", aktiven: true  },
-  { _id: 8,  sotrudnik_id: 8,  login: "buh1",        khesh_parolya: "$2a$10$hash8",  rol: "manager",  aktiven: true  },
-  { _id: 9,  sotrudnik_id: 9,  login: "admin2",      khesh_parolya: "$2a$10$hash9",  rol: "admin",    aktiven: false },
-  { _id: 10, sotrudnik_id: 10, login: "stajer1",     khesh_parolya: "$2a$10$hash10", rol: "operator", aktiven: true  }
+  { _id: 1,  sotrudnik_id: 1,  login: "admin",       khesh_parolya: "demo_only_not_an_authentication_hash",  rol: "admin",    aktiven: true  },
+  { _id: 2,  sotrudnik_id: 2,  login: "manager1",    khesh_parolya: "demo_only_not_an_authentication_hash",  rol: "manager",  aktiven: true  },
+  { _id: 3,  sotrudnik_id: 3,  login: "operator1",   khesh_parolya: "demo_only_not_an_authentication_hash",  rol: "operator", aktiven: true  },
+  { _id: 4,  sotrudnik_id: 4,  login: "operator2",   khesh_parolya: "demo_only_not_an_authentication_hash",  rol: "operator", aktiven: true  },
+  { _id: 5,  sotrudnik_id: 5,  login: "tehnik1",     khesh_parolya: "demo_only_not_an_authentication_hash",  rol: "operator", aktiven: true  },
+  { _id: 6,  sotrudnik_id: 6,  login: "instruktor1", khesh_parolya: "demo_only_not_an_authentication_hash",  rol: "operator", aktiven: true  },
+  { _id: 7,  sotrudnik_id: 7,  login: "sklad1",      khesh_parolya: "demo_only_not_an_authentication_hash",  rol: "operator", aktiven: true  },
+  { _id: 8,  sotrudnik_id: 8,  login: "buh1",        khesh_parolya: "demo_only_not_an_authentication_hash",  rol: "manager",  aktiven: true  },
+  { _id: 9,  sotrudnik_id: 9,  login: "admin2",      khesh_parolya: "demo_only_not_an_authentication_hash",  rol: "admin",    aktiven: false },
+  { _id: 10, sotrudnik_id: 10, login: "stajer1",     khesh_parolya: "demo_only_not_an_authentication_hash", rol: "operator", aktiven: true  }
 ])
 
 // ========== 9. STATUS_INVENTARYA ==========
